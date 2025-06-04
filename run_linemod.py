@@ -102,6 +102,7 @@ def run_pose_estimation():
 
   for ob_id in reader_tmp.ob_ids:
     ob_id = int(ob_id)
+    print(f"当前处理的物体ID: {ob_id}") # 1-15 no 7|3
     if use_reconstructed_mesh:
       mesh = reader_tmp.get_reconstructed_mesh(ob_id, ref_view_dir=opt.ref_view_dir)
     else:

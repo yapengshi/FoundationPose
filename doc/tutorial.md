@@ -39,10 +39,10 @@ CMAKE_PREFIX_PATH=$CONDA_PREFIX/lib/python3.9/site-packages/pybind11/share/cmake
 [kinect_driller_seq|mustard0 下载](https://drive.google.com/drive/folders/1pRyFmxYXmAnpku7nGRioZaKrVJtIsroP?usp=sharing)解压到`demo_data/`目录下
 
 - [Model Free] 下载经过预处理的参考视图到`Datasets/`目录下
-如果要跑model-free的少样本学习版本，请[下载](https://drive.google.com/drive/folders/1PXXCOJqHXwQTbwPwPbGDN9_vLVe0XpFS?usp=sharing)
+运行model-free的少样本学习版本，请[下载linemod.zip | ycbv.zip](https://drive.google.com/drive/folders/1PXXCOJqHXwQTbwPwPbGDN9_vLVe0XpFS?usp=sharing)
 
 - [可选] 下载训练数据到`Datasets/`目录下
-[FoundationPose Dataset](https://drive.google.com/drive/folders/1s4pB6p4ApfWMiMjmTXOFco8dHbNXikp-?usp=sharing)
+[下载 gso | objaverse_path_tracing](https://drive.google.com/drive/folders/1s4pB6p4ApfWMiMjmTXOFco8dHbNXikp-?usp=sharing)
 
 - [可选] 下载YCB-Video数据集
 如果需要YCB-Video数据集，这是一个200G+的数据集，BOP版做了筛选，在100G左右，前往此处下载，解压到demo_data/目录下。
